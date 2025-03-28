@@ -3,4 +3,5 @@
 
 # But not these files:
 !.gitignore
+!161map.html
 !index.html
