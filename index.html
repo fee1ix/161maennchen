@@ -2,36 +2,45 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>161-Männchen Streetart Map</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- Open Graph / Link Preview -->
    <meta property="og:title" content="161-Männchen Streetart Map">
    <meta property="og:description" content="Alle 161-Männchen auf einer Karte!">
-   <meta property="og:image" content="preview.png">
+   <meta property="og:image" content="https://fee1ix.github.io/streetart_map/preview.png">
    <meta property="og:url" content="https://fee1ix.github.io/streetart_map/">
    <meta property="og:type" content="website">
 
 
-  <style>
-    body, html {
+   <style>
+    html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-    }
-    iframe {
       width: 100%;
-      height: 100%;
+      overflow: hidden;
+    }
+  
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
       border: none;
     }
   </style>
+
 </head>
 <body>
   <iframe src="161map.html"></iframe>
   <div style="text-align:center; padding: 1em;">
-    <a href="https://www.instagram.com/161maennchen/" target="_blank" style="text-decoration:none; color:#444;">
+    <!-- <a href="https://www.instagram.com/161maennchen/" target="_blank" style="text-decoration:none; color:#444;">
         🥷🏽Follow @161maennchen on Instagram
-    </a>
+    </a> -->
   </div>
 </body>
 </html>
