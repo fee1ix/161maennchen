@@ -1,7 +1,7 @@
 # 🗺️ Streetart Map – 161Männchen
 
 Welcome to the digital home of the 161Männchen graffiti map!  
-This project connects the spotted graffiti art from the streets with an interactive Folium map, making it easy to explore the artworks by location.
+This project connects the spotted graffiti art from the streets of Jena/Germany with an interactive Folium map, making it easy to explore the artworks by location.
 
 ## 🌍 What is this?
 
